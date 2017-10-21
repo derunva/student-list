@@ -14,7 +14,8 @@ body{
 	margin: 15px 0;
 }
 .comments ul{
-	padding-left: 25px;
+	padding-left: 15px;
+	list-style: none;
 }
 .comment{
 	padding-left: 75px;
