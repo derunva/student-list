@@ -3,6 +3,9 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+body{
+	font-family: 'Open Sans', sans-serif;
+}
 .comments{
 	list-style: none;
 	padding: 10px;
@@ -12,6 +15,38 @@
 }
 .comments ul{
 	padding-left: 25px;
+}
+
+.comment{
+	padding-left: 75px;
+	position: relative;
+	min-height: 60px;
+	font-size: 1.2em;
+}
+.comment__avatar{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 60px;
+	height: 60px;
+}
+.comment__avatar img{
+	max-width: 100%;
+	max-height: 100%;
+	border-radius: 50%;
+}
+.comment__date{
+	font-size: .6em;
+	font-style: italic;;
+	color: #333;
+}
+.comment__author{
+	font-size: .8em;
+	font-weight: bold;
+	color: #444;
+}
+.comment__author a{
+	color: inherit;
 }
 .block{
 	padding-top: 20px;
