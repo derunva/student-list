@@ -68,3 +68,7 @@ body{
 p a{
 	color:red;
 }
+.btn.btn_comment{
+	background-color: red;
+	color:black;
+}
