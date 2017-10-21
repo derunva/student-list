@@ -1,0 +1,15 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.comments{
+	list-style: none;
+	padding: 10px;
+}
+.comments li{
+	margin: 15px 0;
+}
+.comments ul{
+	padding-left: 25px;
+}
