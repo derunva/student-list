@@ -16,6 +16,7 @@ body{
 .comments ul{
 	padding-left: 25px;
 }
+
 .comment{
 	padding-left: 75px;
 	position: relative;
@@ -46,4 +47,24 @@ body{
 }
 .comment__author a{
 	color: inherit;
+}
+.block{
+	padding-top: 20px;
+	color:yellow;
+}
+.block p{
+	padding-top:15px;
+	color:blue;
+}
+.btn{
+	text-decoration:none;
+	padding:5px 10px;
+	background-color: yellow; 
+	margin-top: 10px;
+	margin-left:10px;
+	color:white;
+	display: inline-block;
+}
+p a{
+	color:red;
 }
