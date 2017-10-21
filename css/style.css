@@ -68,3 +68,6 @@ body{
 p a{
 	color:red;
 }
+.smile {
+	max-width: 30px;
+}
