@@ -14,7 +14,8 @@ body{
 	margin: 15px 0;
 }
 .comments ul{
-	padding-left: 25px;
+	padding-left: 15px;
+	list-style: none;
 }
 
 .comment{
@@ -69,7 +70,7 @@ p a{
 	color:red;
 }
 
-.btn.btn_comment{
+.btn .btn__comment{
 	background-color: red;
 	color:black;
 }
